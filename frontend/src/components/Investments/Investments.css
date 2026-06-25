@@ -1,0 +1,98 @@
+.investments-page { animation: fadeIn 0.4s ease-out; }
+.investments-page h1 { font-size: 1.5rem; margin-bottom: 28px; }
+
+.portfolio-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.portfolio-stat {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  text-align: center;
+  backdrop-filter: blur(20px);
+}
+
+.portfolio-stat-value {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.portfolio-stat-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.investments-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.investment-list {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  backdrop-filter: blur(20px);
+}
+
+.investment-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.investment-item:last-child {
+  border-bottom: none;
+}
+
+.inv-symbol {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.inv-symbol.stock { background: rgba(124, 77, 255, 0.12); color: var(--accent-purple); }
+.inv-symbol.crypto { background: rgba(255, 196, 0, 0.12); color: var(--accent-amber); }
+.inv-symbol.etf { background: rgba(0, 229, 255, 0.12); color: var(--accent-cyan); }
+
+.inv-info { flex: 1; min-width: 0; }
+.inv-name { font-weight: 600; font-size: 0.9rem; }
+.inv-shares { font-size: 0.8rem; color: var(--text-muted); }
+
+.inv-values { text-align: right; }
+.inv-current { font-weight: 700; font-size: 0.95rem; }
+.inv-gain { font-size: 0.8rem; font-weight: 600; }
+.inv-gain.positive { color: var(--accent-emerald); }
+.inv-gain.negative { color: var(--accent-rose); }
+
+.inv-chart-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  backdrop-filter: blur(20px);
+}
+
+@media (max-width: 1200px) {
+  .portfolio-summary { grid-template-columns: repeat(2, 1fr); }
+  .investments-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+  .portfolio-summary { grid-template-columns: 1fr; }
+}

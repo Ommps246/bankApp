@@ -1,0 +1,599 @@
+{
+  "accounts": [
+    {
+      "account_number": "****4521",
+      "balance": 45150.75,
+      "created_at": "2024-01-15",
+      "currency": "USD",
+      "id": "acc_001",
+      "name": "Primary Savings",
+      "type": "savings",
+      "user_id": "usr_001"
+    },
+    {
+      "account_number": "****7832",
+      "balance": 12940.3,
+      "created_at": "2024-01-15",
+      "currency": "USD",
+      "id": "acc_002",
+      "name": "Daily Checking",
+      "type": "checking",
+      "user_id": "usr_001"
+    },
+    {
+      "account_number": "****9154",
+      "balance": 128500.0,
+      "created_at": "2024-03-01",
+      "currency": "USD",
+      "id": "acc_003",
+      "name": "Business Account",
+      "type": "business",
+      "user_id": "usr_001"
+    },
+    {
+      "account_number": "****2267",
+      "balance": 32100.5,
+      "created_at": "2024-02-20",
+      "currency": "USD",
+      "id": "acc_004",
+      "name": "Savings Account",
+      "type": "savings",
+      "user_id": "usr_002"
+    },
+    {
+      "account_number": "****5543",
+      "balance": 8450.25,
+      "created_at": "2024-02-20",
+      "currency": "USD",
+      "id": "acc_005",
+      "name": "Checking Account",
+      "type": "checking",
+      "user_id": "usr_002"
+    },
+    {
+      "account_number": "****8807",
+      "balance": 895.0,
+      "created_at": "2026-04-28",
+      "currency": "USD",
+      "id": "acc_102",
+      "name": "Primary Savings",
+      "type": "savings",
+      "user_id": "usr_101"
+    },
+    {
+      "account_number": "****2249",
+      "balance": 5.0,
+      "created_at": "2026-04-28",
+      "currency": "USD",
+      "id": "acc_103",
+      "name": "college",
+      "type": "savings",
+      "user_id": "usr_101"
+    },
+    {
+      "account_number": "****2930",
+      "balance": 0.0,
+      "created_at": "2026-04-28",
+      "currency": "USD",
+      "id": "acc_111",
+      "name": "New savings Account",
+      "type": "savings",
+      "user_id": "usr_admin"
+    }
+  ],
+  "analytics": {
+    "monthly_spending": [
+      {
+        "income": 5500,
+        "month": "Nov",
+        "spending": 3200
+      },
+      {
+        "income": 5800,
+        "month": "Dec",
+        "spending": 4100
+      },
+      {
+        "income": 5200,
+        "month": "Jan",
+        "spending": 3800
+      },
+      {
+        "income": 5200,
+        "month": "Feb",
+        "spending": 2900
+      },
+      {
+        "income": 5550,
+        "month": "Mar",
+        "spending": 3650
+      },
+      {
+        "income": 5550,
+        "month": "Apr",
+        "spending": 3365
+      }
+    ],
+    "spending_by_category": [
+      {
+        "amount": 1200,
+        "category": "Housing",
+        "percentage": 35.6
+      },
+      {
+        "amount": 450,
+        "category": "Food",
+        "percentage": 13.4
+      },
+      {
+        "amount": 280,
+        "category": "Transport",
+        "percentage": 8.3
+      },
+      {
+        "amount": 185,
+        "category": "Entertainment",
+        "percentage": 5.5
+      },
+      {
+        "amount": 345,
+        "category": "Utilities",
+        "percentage": 10.2
+      },
+      {
+        "amount": 520,
+        "category": "Shopping",
+        "percentage": 15.5
+      },
+      {
+        "amount": 385,
+        "category": "Other",
+        "percentage": 11.5
+      }
+    ]
+  },
+  "investments": [
+    {
+      "buy_price": 175.5,
+      "current_price": 192.3,
+      "id": "inv_001",
+      "name": "Apple Inc.",
+      "shares": 15,
+      "symbol": "AAPL",
+      "type": "stock",
+      "user_id": "usr_001"
+    },
+    {
+      "buy_price": 140.2,
+      "current_price": 155.8,
+      "id": "inv_002",
+      "name": "Alphabet Inc.",
+      "shares": 8,
+      "symbol": "GOOGL",
+      "type": "stock",
+      "user_id": "usr_001"
+    },
+    {
+      "buy_price": 380.0,
+      "current_price": 415.6,
+      "id": "inv_003",
+      "name": "Microsoft Corp.",
+      "shares": 12,
+      "symbol": "MSFT",
+      "type": "stock",
+      "user_id": "usr_001"
+    },
+    {
+      "buy_price": 245.0,
+      "current_price": 228.4,
+      "id": "inv_004",
+      "name": "Tesla Inc.",
+      "shares": 5,
+      "symbol": "TSLA",
+      "type": "stock",
+      "user_id": "usr_001"
+    },
+    {
+      "buy_price": 42000.0,
+      "current_price": 67500.0,
+      "id": "inv_005",
+      "name": "Bitcoin",
+      "shares": 0.5,
+      "symbol": "BTC",
+      "type": "crypto",
+      "user_id": "usr_001"
+    },
+    {
+      "buy_price": 2800.0,
+      "current_price": 3450.0,
+      "id": "inv_006",
+      "name": "Ethereum",
+      "shares": 3.2,
+      "symbol": "ETH",
+      "type": "crypto",
+      "user_id": "usr_001"
+    },
+    {
+      "buy_price": 420.0,
+      "current_price": 468.5,
+      "id": "inv_007",
+      "name": "Vanguard S&P 500 ETF",
+      "shares": 20,
+      "symbol": "VOO",
+      "type": "etf",
+      "user_id": "usr_001"
+    },
+    {
+      "buy_price": 100,
+      "current_price": 100,
+      "id": "inv_102",
+      "name": "Apple",
+      "shares": 10,
+      "symbol": "APPL",
+      "type": "stock",
+      "user_id": "usr_101"
+    }
+  ],
+  "loans": [
+    {
+      "emi": 2212.24,
+      "id": "loan_001",
+      "principal": 350000,
+      "rate": 6.5,
+      "remaining": 328500,
+      "start_date": "2023-06-01",
+      "status": "active",
+      "tenure_months": 360,
+      "type": "Home Loan",
+      "user_id": "usr_001"
+    },
+    {
+      "emi": 697.26,
+      "id": "loan_002",
+      "principal": 35000,
+      "rate": 7.2,
+      "remaining": 22400,
+      "start_date": "2023-09-15",
+      "status": "active",
+      "tenure_months": 60,
+      "type": "Car Loan",
+      "user_id": "usr_001"
+    },
+    {
+      "created_at": "2026-04-28",
+      "emi": 1025.83,
+      "id": "loan_101",
+      "name": "Personal Loan",
+      "principal": 50000.0,
+      "rate": 8.5,
+      "remaining": 50000.0,
+      "start_date": "2026-04-28",
+      "status": "active",
+      "tenure_months": 60,
+      "type": "Personal Loan",
+      "user_id": "usr_101"
+    },
+    {
+      "created_at": "2026-04-28",
+      "emi": 1025.83,
+      "id": "loan_103",
+      "name": "Personal Loan",
+      "principal": 50000.0,
+      "rate": 8.5,
+      "remaining": 50000.0,
+      "start_date": "2026-04-28",
+      "status": "active",
+      "tenure_months": 60,
+      "type": "Personal Loan",
+      "user_id": "usr_101"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "acc_001",
+      "amount": 5200.0,
+      "category": "income",
+      "date": "2024-04-01",
+      "description": "Salary Deposit",
+      "id": "txn_001",
+      "status": "completed",
+      "type": "credit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_002",
+      "amount": 85.5,
+      "category": "entertainment",
+      "date": "2024-04-02",
+      "description": "Netflix Subscription",
+      "id": "txn_002",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_002",
+      "amount": 245.0,
+      "category": "utilities",
+      "date": "2024-04-03",
+      "description": "Electric Bill",
+      "id": "txn_003",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_002",
+      "amount": 1200.0,
+      "category": "housing",
+      "date": "2024-04-05",
+      "description": "Rent Payment",
+      "id": "txn_004",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_001",
+      "amount": 350.0,
+      "category": "income",
+      "date": "2024-04-06",
+      "description": "Freelance Payment",
+      "id": "txn_005",
+      "status": "completed",
+      "type": "credit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_002",
+      "amount": 67.3,
+      "category": "food",
+      "date": "2024-04-07",
+      "description": "Grocery Store",
+      "id": "txn_006",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_002",
+      "amount": 42.0,
+      "category": "transport",
+      "date": "2024-04-08",
+      "description": "Uber Ride",
+      "id": "txn_007",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_003",
+      "amount": 15000.0,
+      "category": "business",
+      "date": "2024-04-09",
+      "description": "Client Payment - Project Alpha",
+      "id": "txn_008",
+      "status": "completed",
+      "type": "credit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_002",
+      "amount": 189.99,
+      "category": "shopping",
+      "date": "2024-04-10",
+      "description": "Amazon Purchase",
+      "id": "txn_009",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_001",
+      "amount": 500.0,
+      "category": "investment",
+      "date": "2024-04-11",
+      "description": "Investment Transfer",
+      "id": "txn_010",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_002",
+      "amount": 35.0,
+      "category": "food",
+      "date": "2024-04-12",
+      "description": "Coffee Shop",
+      "id": "txn_011",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_001",
+      "amount": 5200.0,
+      "category": "income",
+      "date": "2024-03-01",
+      "description": "Salary Deposit",
+      "id": "txn_012",
+      "status": "completed",
+      "type": "credit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_002",
+      "amount": 1200.0,
+      "category": "housing",
+      "date": "2024-03-05",
+      "description": "Rent Payment",
+      "id": "txn_013",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_002",
+      "amount": 320.0,
+      "category": "insurance",
+      "date": "2024-03-10",
+      "description": "Insurance Premium",
+      "id": "txn_014",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_002",
+      "amount": 156.0,
+      "category": "food",
+      "date": "2024-03-15",
+      "description": "Restaurant Dinner",
+      "id": "txn_015",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_004",
+      "amount": 4800.0,
+      "category": "income",
+      "date": "2024-04-01",
+      "description": "Salary Deposit",
+      "id": "txn_016",
+      "status": "completed",
+      "type": "credit",
+      "user_id": "usr_002"
+    },
+    {
+      "account_id": "acc_005",
+      "amount": 950.0,
+      "category": "housing",
+      "date": "2024-04-05",
+      "description": "Rent Payment",
+      "id": "txn_017",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_002"
+    },
+    {
+      "account_id": "acc_005",
+      "amount": 125.0,
+      "category": "health",
+      "date": "2024-04-06",
+      "description": "Gym Membership",
+      "id": "txn_018",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_002"
+    },
+    {
+      "account_id": "acc_102",
+      "amount": 5.0,
+      "category": "transfer",
+      "date": "2026-04-28",
+      "description": "Fund Transfer",
+      "id": "txn_104",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_101"
+    },
+    {
+      "account_id": "acc_103",
+      "amount": 5.0,
+      "category": "transfer",
+      "date": "2026-04-28",
+      "description": "Transfer from acc_102",
+      "id": "txn_105",
+      "status": "completed",
+      "type": "credit",
+      "user_id": "usr_101"
+    },
+    {
+      "account_id": "acc_102",
+      "amount": 100.0,
+      "category": "transfer",
+      "date": "2026-04-28",
+      "description": "Fund Transfer",
+      "id": "txn_114",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_101"
+    },
+    {
+      "account_id": "acc_106",
+      "amount": 100.0,
+      "category": "transfer",
+      "date": "2026-04-28",
+      "description": "Transfer from acc_102",
+      "id": "txn_115",
+      "status": "completed",
+      "type": "credit",
+      "user_id": "usr_101"
+    },
+    {
+      "account_id": "acc_001",
+      "amount": 100.0,
+      "category": "transfer",
+      "date": "2026-04-29",
+      "description": "Fund Transfer",
+      "id": "txn_104",
+      "status": "completed",
+      "type": "debit",
+      "user_id": "usr_001"
+    },
+    {
+      "account_id": "acc_002",
+      "amount": 100.0,
+      "category": "transfer",
+      "date": "2026-04-29",
+      "description": "Transfer from acc_001",
+      "id": "txn_105",
+      "status": "completed",
+      "type": "credit",
+      "user_id": "usr_001"
+    }
+  ],
+  "users": [
+    {
+      "avatar": "JD",
+      "created_at": "2024-01-15",
+      "email": "john@bankapp.com",
+      "id": "usr_001",
+      "name": "John Doe",
+      "password": "password123",
+      "role": "user",
+      "username": "john_doe"
+    },
+    {
+      "avatar": "JS",
+      "created_at": "2024-02-20",
+      "email": "jane@bankapp.com",
+      "id": "usr_002",
+      "name": "Jane Smith",
+      "password": "password123",
+      "role": "user",
+      "username": "jane_smith"
+    },
+    {
+      "avatar": "AD",
+      "created_at": "2023-12-01",
+      "email": "admin@bankapp.com",
+      "id": "usr_admin",
+      "name": "Admin User",
+      "password": "admin123",
+      "role": "admin",
+      "username": "admin"
+    },
+    {
+      "avatar": "om",
+      "created_at": "2026-04-28",
+      "email": "ommps246@gmai.com",
+      "id": "usr_101",
+      "name": "om mishra",
+      "password": "Ommps@123",
+      "role": "user",
+      "username": "omm6544"
+    }
+  ]
+}

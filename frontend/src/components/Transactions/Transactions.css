@@ -1,0 +1,57 @@
+.transactions-page { animation: fadeIn 0.4s ease-out; }
+.transactions-page h1 { font-size: 1.5rem; margin-bottom: 28px; }
+
+.transactions-filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.transactions-filters .input-field,
+.transactions-filters .select-field {
+  max-width: 220px;
+}
+
+.transactions-table-wrapper {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  backdrop-filter: blur(20px);
+}
+
+.txn-type-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  margin-right: 10px;
+}
+
+.txn-desc-cell {
+  display: flex;
+  align-items: center;
+}
+
+.txn-amount {
+  font-weight: 700;
+}
+
+.txn-amount.credit { color: var(--accent-emerald); }
+.txn-amount.debit { color: var(--accent-rose); }
+
+.txn-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .transactions-filters { flex-direction: column; }
+  .transactions-filters .input-field,
+  .transactions-filters .select-field { max-width: 100%; }
+}
